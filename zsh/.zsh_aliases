@@ -1,0 +1,26 @@
+# -----------------------------------------------------------------------------
+# KVM tracing
+# -----------------------------------------------------------------------------
+
+alias kt='kvm_trace'
+alias lt='less /sys/kernel/debug/tracing/trace'
+alias ct='echo 0 > /sys/kernel/debug/tracing/trace'
+alias ton='echo 1 > /sys/kernel/debug/tracing/tracing_on'
+alias toff='echo 0 > /sys/kernel/debug/tracing/tracing_on'
+
+# -----------------------------------------------------------------------------
+# Utilities
+# -----------------------------------------------------------------------------
+
+# Linux check_patch
+alias cph="./scripts/checkpatch.pl -g HEAD"
+
+# ripgrep pretty
+function rg-pretty-less() {
+  if [[ $# -eq  0 ]]; then
+	  echo "Usage: 'rgp <search term> <optional-path> ...'"
+  else
+	  rg "$@" -p | less -R
+  fi
+}
+alias rgp="rg-pretty-less"
