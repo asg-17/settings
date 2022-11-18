@@ -126,3 +126,5 @@ bindkey -v
 export KEYTIMEOUT=1
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+source ~/asg-17/settings/zsh/.zsh_aliases
