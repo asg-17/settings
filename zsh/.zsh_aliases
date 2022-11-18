@@ -15,7 +15,7 @@ alias toff='echo 0 > /sys/kernel/debug/tracing/tracing_on'
 # Linux check_patch
 alias cph="./scripts/checkpatch.pl -g HEAD"
 
-# ripgrep pretty
+# ripgrep pretty paged
 function rg-pretty-less() {
   if [[ $# -eq  0 ]]; then
 	  echo "Usage: 'rgp <search term> <optional-path> ...'"
@@ -24,3 +24,17 @@ function rg-pretty-less() {
   fi
 }
 alias rgp="rg-pretty-less"
+
+# -----------------------------------------------------------------------------
+# Paths
+# -----------------------------------------------------------------------------
+
+# ZSH
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Kernel
+alias cdk="cd ${HOME}/kernel"
+alias cdkvm="cd ${HOME}/kernel/kvm"
+alias cdmain="cd ${HOME}/kernel/mainline"
+alias cdkvmut="cd ${HOME}/kernel/kvm-unit-tests"
