@@ -6,7 +6,7 @@ nmap ]p :GitGutterNextHunk<CR>
 nmap [p :GitGutterPrevHunk<CR>
 
 " fzf
-source /usr/share/doc/fzf/examples/fzf.vim
+source ~/.vim/plugged/fzf/plugin/fzf.vim
 nnoremap <silent><leader>b :Buffers<CR>
 nnoremap <silent><leader>f :GFiles<CR>
 nnoremap <silent><leader>c :Lines<CR>
