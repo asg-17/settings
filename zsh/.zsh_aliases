@@ -38,3 +38,8 @@ alias cdk="cd ${HOME}/kernel"
 alias cdkvm="cd ${HOME}/kernel/kvm"
 alias cdmain="cd ${HOME}/kernel/mainline"
 alias cdkvmut="cd ${HOME}/kernel/kvm-unit-tests"
+
+# -----------------------------------------------------------------------------
+# Git commands
+# -----------------------------------------------------------------------------
+alias gsrev="git series-review"
