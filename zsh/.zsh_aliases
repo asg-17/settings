@@ -38,6 +38,9 @@ alias cdk="cd ${HOME}/linux/kernel"
 alias cdmain="cd ${HOME}/linux/mainline"
 alias cdkvmut="cd ${HOME}/linux/kvm-unit-tests"
 
+# Settings
+alias cds="cd ${HOME}/asg-17/settings"
+
 # -----------------------------------------------------------------------------
 # Git commands
 # -----------------------------------------------------------------------------
