@@ -8,3 +8,6 @@ set number
 
 nnoremap J <PageDown>
 nnoremap K <PageUp>
+
+let g:dracula_colorterm = 0
+colorscheme dracula

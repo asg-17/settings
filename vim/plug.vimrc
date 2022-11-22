@@ -13,4 +13,5 @@ Plug 'vim-scripts/vim-gitgutter'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'https://github.com/tpope/vim-fugitive'
+Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
