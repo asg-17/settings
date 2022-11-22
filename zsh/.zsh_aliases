@@ -44,5 +44,6 @@ alias cds="cd ${HOME}/asg-17/settings"
 # -----------------------------------------------------------------------------
 # Git commands
 # -----------------------------------------------------------------------------
+alias grc="git rebase --continue"
 alias grv="git remote -vv"
 alias gsrev="git series-review"
