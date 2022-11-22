@@ -34,10 +34,9 @@ alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Kernel
-alias cdk="cd ${HOME}/kernel"
-alias cdkvm="cd ${HOME}/kernel/kvm"
-alias cdmain="cd ${HOME}/kernel/mainline"
-alias cdkvmut="cd ${HOME}/kernel/kvm-unit-tests"
+alias cdk="cd ${HOME}/linux/kernel"
+alias cdmain="cd ${HOME}/linux/mainline"
+alias cdkvmut="cd ${HOME}/linux/kvm-unit-tests"
 
 # -----------------------------------------------------------------------------
 # Git commands
