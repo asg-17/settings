@@ -11,3 +11,6 @@ nnoremap K <PageUp>
 
 let g:dracula_colorterm = 0
 colorscheme dracula
+
+" Cscope
+source ${HOME}/.cscope_maps.vim
