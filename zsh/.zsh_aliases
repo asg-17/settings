@@ -25,6 +25,12 @@ function rg-pretty-less() {
 }
 alias rgp="rg-pretty-less"
 
+# Find files
+function find-file-in-path() {
+  find $1 -type f -name "$2"
+}
+alias ff="find-file-in-path"
+
 # -----------------------------------------------------------------------------
 # Paths
 # -----------------------------------------------------------------------------
