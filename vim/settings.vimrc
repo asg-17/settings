@@ -6,6 +6,17 @@ syntax on
 " Set line numbers on by default
 set number
 
+" Highlight the current line.
+set cursorline
+
+" Allow vim to use the X clipboard.
+set clipboard=unnamed
+
+" Folding based on syntax
+" By default all folds open
+set foldmethod=syntax
+set foldlevel=99
+
 nnoremap J <PageDown>
 nnoremap K <PageUp>
 
