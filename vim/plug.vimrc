@@ -14,4 +14,5 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'https://github.com/tpope/vim-fugitive'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'preservim/nerdtree'
 call plug#end()
