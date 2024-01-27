@@ -10,6 +10,7 @@ RUN apt update && apt install -y \
   fd-find \
   git \
   gpg \
+  locales \
   nodejs \
   ripgrep \
   sudo \
@@ -18,6 +19,12 @@ RUN apt update && apt install -y \
   vim \
   wget \
   zsh
+
+RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
+    locale-gen
+ENV LC_ALL en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
 
 # Create a user with sudo privileges.
 ARG USER=anish
