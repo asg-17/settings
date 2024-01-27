@@ -6,7 +6,6 @@ endif
 
 call plug#begin()
 " Make sure you use single quotes
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-scripts/vim-gitgutter'

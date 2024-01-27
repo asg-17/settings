@@ -74,7 +74,6 @@ plugins=(
 	git
 	zsh-autosuggestions
 	zsh-completions
-	zsh-syntax-highlighting
 )
 
 # If command execution time above min. time, plugins will not output time.
@@ -127,4 +126,4 @@ export KEYTIMEOUT=1
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-source ~/asg-17/settings/zsh/.zsh_aliases
+source ${HOME}/.zsh_aliases

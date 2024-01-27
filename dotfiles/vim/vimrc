@@ -1,0 +1,5 @@
+source ${HOME}/.plug.vimrc
+source ${HOME}/.settings.vimrc
+source ${HOME}/.leader.vimrc
+source ${HOME}/.functions.vimrc
+source ${HOME}/.plugins.vimrc
