@@ -76,7 +76,13 @@ plugins=(
 	zsh-completions
 	fast-syntax-highlighting
 	vi-mode
+	tmux
 )
+
+# Auto start tmux
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_DEFAULT_SESSION_NAME=default-session
+ZSH_TMUX_UNICODE=true
 
 # If command execution time above min. time, plugins will not output time.
 ZSH_COMMAND_TIME_MIN_SECONDS=3
