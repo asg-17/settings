@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# One-liner installation for these settings
+#
+# curl https://raw.githubusercontent.com/asg-17/settings/master/install.sh | bash
+#
+
 main() {
   readonly settingsDir="${HOME}/.asg-17"
   readonly repo="https://github.com/asg-17/settings"
