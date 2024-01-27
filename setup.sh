@@ -73,8 +73,8 @@ install_fzf() {
   ${FZF}/install
 }
 
-download_dracula() {
-  git clone https://github.com/dracula/vim.git ${HOME}/dracula
+install_tpm() {
+  git clone --quiet --filter=blob:none https://github.com/tmux-plugins/tpm ${HOME}/.tmux/plugins/tpm
 }
 
 main() {
@@ -94,8 +94,7 @@ main() {
 
   install_fzf
 
-  download_dracula
-
+  install_tpm
 }
 
 main "$0"
